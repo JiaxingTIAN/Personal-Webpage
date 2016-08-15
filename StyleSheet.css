@@ -1,0 +1,211 @@
+﻿body {
+    background: url(images/blue-background.jpg); 
+    background-repeat:no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+#header {
+    background-color:deepskyblue;
+    margin:auto;
+    max-width:1024px;
+    color:white;
+    text-align:center;
+    padding:5px;
+    box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    font-weight:bold;
+}
+#footer 
+{
+    margin-top:20px;
+    color:white;
+    clear:both;
+    text-align:center;
+    text-decoration:underline;
+    padding:5px;	 
+    font-family:'Times New Roman', Times, serif;	 
+}
+.ref:hover{
+    opacity:0.5;
+}
+ul.head{
+    list-style-type: none;
+    margin-left:18%;
+    margin-bottom:0px;
+    padding: 0;
+    overflow: hidden;
+    position: relative;
+}
+
+li.head{
+    float:left;
+    border-right: 1px solid #bbb;
+}
+li.head:last-child{
+    border-right: none;
+}
+
+li.head a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 10px 16px;
+    text-decoration: none;
+}
+ul.sid{
+    list-style-type: none;
+    padding: 0;
+    overflow: hidden;
+    position: relative;
+}
+li.sid a{
+    display: block;
+    color: Highlight;
+    text-align: center;
+    padding: 5px;
+    text-decoration: none;
+    font-weight:bolder;
+}
+li a:hover{
+    background-color:rgba(0, 0, 0, 0.2);
+}
+div.general{
+    margin:auto;
+    max-width:1032px;
+}
+div.info{
+    padding:3px;
+}
+.link:hover{
+    color: Highlight;
+}
+div.container{
+    border:5px solid white;
+    border-radius:5px;
+    background-color:white;
+    overflow:auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);    
+}
+div.container.pic{
+    float:left;
+    width:360px;
+    text-align: center;
+}
+div.container.bio{
+    height:435px;
+    margin-top:10px;
+    margin-left:380px;
+    border:10px 5px 10px 5px solid white;
+}
+div.container.acdemic{
+    margin-top:10px;
+    padding-bottom:35px;
+}
+div.container.hobbies{
+    overflow: auto;
+    margin-top:10px;
+    padding-bottom:35px;
+}
+div.container.goals{
+    margin-top:10px;
+    padding-bottom:20px;
+    overflow:auto;
+    height:auto;
+}
+div.image{
+    margin:10px;
+    border:1px solid #ccc;
+    float:left;
+}
+div.image:hover{
+    border: 1px solid #777;
+}
+div.text{
+    margin-top:35px;
+    margin-left:50px;
+}
+p.describe{
+    padding:5px;
+    text-align:center;
+}
+h2{
+    margin-left:25px; 
+    text-decoration:underline;
+} 
+div.container.sidbar{
+    position: fixed;
+    padding-top:15px;
+    top:100px;
+    left:6%;
+    width:100px;
+    opacity:0.8;
+}
+.button {
+  border-radius: 4px;
+  background-color: #f4511e;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 14px;
+  padding: 10px;
+  width: 150px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '»';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+.gbutton {
+  width:100px;
+  padding: 5px;
+  font-size: 14px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: #fff;
+  background-color: #4CAF50;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 5px #999;
+}
+
+.gbutton:hover {background-color: #3e8e41}
+
+.gbutton:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+.container.ontop {
+    z-index: 999;
+    width: 500px;
+    height: 300px;
+    top:30%;
+    left:40%;
+    display: none;
+    position: fixed;
+    padding: 20px;
+}
